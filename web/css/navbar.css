@@ -1,0 +1,30 @@
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 18%;
+    background-color: #212524;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: 18px;
+    font-family: cursive;
+    top: 60px;
+    }
+
+li a {
+    display: block;
+    color: whitesmoke;
+    padding: 18px 23px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #386565;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}

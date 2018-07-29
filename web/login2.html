@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Login</title> 
+    <link href="css/input.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="logo.png"/>
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body style='background-image: url("loginimg.jpeg");background-repeat: no-repeat;background-size: 100%;'>
+    <header>
+        <button class="btn btn-default btn-sm" style="
+            background: whitesmoke; margin-left: 1255px;"><span class="glyphicon glyphicon-home"></span>
+            <a href="first.jsp"> Home</a>
+        </button>
+    </header>
+    <form id ="login_form" action="login" method="post" style="margin-top: 100px">
+<h2 style="font-family: comic sans;color: beige;">Login</h2>
+<p style="font-family: comic sans;color: beige;">Login to get instant access.</p>
+<input class="input_field" style="color: black;" id="unm" type = text placeholder = "Enter Username" name ="username" required><br><br>
+<input class="input_field" style="color: black;" id="pas" type = password placeholder = "Enter Password" name="password" required>
+<br><br>
+Student  <input type="radio" value ="student" name="person-login" checked="checked">
+Librarian  <input type="radio" value ="librarian" name="person-login">
+Admin  <input type="radio" value="admin" name="person-login" ><br><br>
+<input class="butn" type = submit value="Login">
+    </form>
+    s
+</body>
+</html>

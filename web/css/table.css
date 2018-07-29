@@ -1,0 +1,21 @@
+.table{
+    font-size: 15px;
+    font-family: monospace;
+    table-layout: fixed;
+}
+.table-fields{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+thead{
+    background: rgba(0,0,0,0.5);
+    color: whitesmoke;
+}
+.height{
+    height: 100px;
+}
